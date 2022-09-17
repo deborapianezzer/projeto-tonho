@@ -1,4 +1,6 @@
-
+* {
+    margin: 0;
+}
 /*BODY*/
 
 body {
@@ -9,9 +11,13 @@ body {
 
 /*HEADER*/
 
+header {
+    background-color: #A2F2E4;
+}
+
 header li {
     list-style: none; 
-    margin: 10px;
+    margin-bottom: 10px;
     display: inline;
 }
 
