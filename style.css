@@ -1,10 +1,40 @@
-* {
-    width: 0;
-    height: 0;
-}
 
 /*BODY*/
 
 body {
-    background-image: url(../projeto-tonho/images/Finaceiro.ico.jpg);
+    background-image: url(https://img.freepik.com/vetores-gratis/ilustracao-do-conceito-de-estatisticas-do-site_114360-1434.jpg?w=740&t=st=1663424744~exp=1663425344~hmac=fc4d7d4ce026f40dae25ddb2562ea710d782113c54c3d2e36c5fb6da4fe723c2);
+    background-size: 50%;
+    background-repeat: no-repeat;
 }
+
+/*HEADER*/
+
+/*MAIN*/
+
+main {
+    max-width: 570px;
+    border: 2px solid;
+    border-radius: 15px;
+}
+
+/*SECTION*/
+
+section.valores {
+    margin: 0;
+    padding-left: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+section.valores h2 {
+    margin: 0;
+}
+
+section.valores div {
+    display: flex;
+}
+
+section.valores button {
+    border-radius: 15px;
+}
+
