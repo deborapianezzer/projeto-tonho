@@ -9,6 +9,16 @@ body {
 
 /*HEADER*/
 
+header li {
+    list-style: none; 
+    margin: 10px;
+    display: inline;
+}
+
+header li:hover {
+    cursor: pointer;
+}
+
 /*MAIN*/
 
 main {
