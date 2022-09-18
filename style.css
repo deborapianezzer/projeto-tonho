@@ -1,42 +1,65 @@
+:root {
+    --color-primary-main: #038C73;
+    --color-secundary-main: #04D9B2;
+    --color-background-main: #f2f2f2;
+}
+
 * {
     margin: 0;
+    padding: 0;
 }
+
 /*BODY*/
 
 body {
     background-image: url(https://img.freepik.com/vetores-gratis/ilustracao-do-conceito-de-estatisticas-do-site_114360-1434.jpg?w=740&t=st=1663424744~exp=1663425344~hmac=fc4d7d4ce026f40dae25ddb2562ea710d782113c54c3d2e36c5fb6da4fe723c2);
     background-size: 50%;
     background-repeat: no-repeat;
+    overflow: hidden;
+    font-family: 'Roboto Condensed', sans-serif;
+    color: #325259;
 }
 
 /*HEADER*/
 
 header {
-    background-color: #A2F2E4;
+    background-color: var(--color-primary-main);
+    height: 27px;
+    color: white;
+}
+
+header ul {
+    text-align: center;
+    padding-top: 3px;
+    padding-right: 3px;
 }
 
 header li {
-    list-style: none; 
-    margin-bottom: 10px;
+    list-style: none;
     display: inline;
+    margin-right: 15px;
 }
 
 header li:hover {
     cursor: pointer;
 }
 
-/*MAIN*/
+/* MAIN */
 
 main {
-    max-width: 570px;
-    border: 2px solid;
-    border-radius: 15px;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
 }
 
 /*SECTION*/
 
 section.valores {
-    margin: 0;
+    border-radius: 5px;
+    background-color: var(--color-background-main);
+    width: 570px;
+    margin-right: 100px;
     padding-left: 15px;
     padding-top: 15px;
     padding-bottom: 15px;
@@ -44,13 +67,25 @@ section.valores {
 
 section.valores h2 {
     margin: 0;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+section.valores h3 {
+    width: 180px;
 }
 
 section.valores div {
     display: flex;
+    margin-bottom: 15px;
 }
 
-section.valores button {
-    border-radius: 15px;
+section.valores p {
+    border: 1px solid;
+    border-radius: 5px;
+    width: 120px;
+    margin-right: 15px;
+    text-align: center;
+    padding-top: 3px;
+    padding-bottom: 3px;
 }
-
