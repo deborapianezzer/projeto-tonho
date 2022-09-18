@@ -56,9 +56,12 @@ main {
 /*SECTION*/
 
 section.valores {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
     border-radius: 5px;
     background-color: var(--color-background-main);
-    width: 570px;
+    width: 470px;
     margin-right: 100px;
     padding-left: 15px;
     padding-top: 15px;
