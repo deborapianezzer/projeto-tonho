@@ -42,6 +42,7 @@ header li {
 
 header li:hover {
     cursor: pointer;
+    color: black;
 }
 
 /* MAIN */
@@ -92,4 +93,8 @@ section.valores p {
     text-align: center;
     padding-top: 3px;
     padding-bottom: 3px;
+}
+
+section.valores p:hover {
+    color: black;
 }
