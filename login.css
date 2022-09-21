@@ -10,10 +10,14 @@
 
 /*BODY*/
 
+body {
+    background-image: url(./images/ilustracao-do-conceito-de-estatisticas-do-site_114360-1434.jpg);
+}
+
 /*MAIN*/
 
 main {
-    width: 800px;
+    width: 852px;
     margin: auto;
     border: 2px solid;
     display: flex;
@@ -21,14 +25,29 @@ main {
     align-items: center;
 }
 
-/* MAIN SECTION */
+/* MAIN SECTION IMAGEM*/
 
 main section img {
-    width: 70%;
+    width: 452px;
+    height: 400px;
 }
 main section.image {
-    width: 500px;
+    width: 450px;
+    height: 400px;
     border-right: 2px solid;
+}
+
+/* MAIN SECTION DADOS*/
+
+main section.dados {
+    width: 350px;
+    height: 400px;
+    background-color: var(--color-background-main);
     justify-content: center;
-    align-items: center;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+main section.dados div.senha-lembrar {
+    display: flex;
 }
