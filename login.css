@@ -11,7 +11,7 @@
 /*BODY*/
 
 body {
-    background-image: url(./images/ilustracao-do-conceito-de-estatisticas-do-site_114360-1434.jpg);
+    background-color: #038c7362 ;
 }
 
 /*MAIN*/
@@ -19,7 +19,6 @@ body {
 main {
     width: 852px;
     margin: auto;
-    border: 2px solid;
     border-radius: 15px;
     display: flex;
     justify-content: center;
@@ -37,7 +36,7 @@ main section img {
 main section.image {
     width: 450px;
     height: 400px;
-    border-right: 2px solid;
+    align-items: center;
 }
 
 /* MAIN SECTION DADOS*/
@@ -47,12 +46,38 @@ main section.dados {
     height: 400px;
     background-color: var(--color-background-main);
     justify-content: center;
+    align-items: center;
     padding-left: 25px;
     padding-right: 25px;
     border-top-right-radius: 15px;
     border-bottom-right-radius: 15px;
 }
 
+main section.dados p {
+    margin-bottom: 5px;
+}
+
+main section.dados input {
+    border-radius: 15px;
+    border: 1px;
+    width: 300px;
+    height: 30px;
+    margin-bottom: 5px;
+    text-align: center;
+}
+
 main section.dados div.senha-lembrar {
     display: flex;
+    justify-content: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+main section.dados div.senha-lembrar p {
+    margin-right: 15px;
+}
+
+main section.dados div.login button {
+    justify-content: center;
+    align-items: center;
 }
