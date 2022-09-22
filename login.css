@@ -7,6 +7,7 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 /*BODY*/
@@ -14,16 +15,18 @@
 body {
     background-color: #038c7362 ;
     font-family: 'Roboto Condensed', sans-serif;
+    height: 100%;
+    margin-top: 150px;
 }
 
 /*MAIN*/
 
 main {
     width: 802px;
-    margin: auto;
+    margin-left: auto;
+    margin-right: auto;
     display: flex;
-    align-items: center;
-    justify-content: center;
+    
 }
 
 
@@ -52,7 +55,13 @@ main section.dados {
     border-bottom-right-radius: 15px;
 }
 
-main section.dados p {
+main section.dados p.email {
+    margin-top: 80px;
+    margin-bottom: 5px;
+}
+
+main section.dados p.senha {
+    margin-top: 10px;
     margin-bottom: 5px;
 }
 
@@ -68,11 +77,13 @@ main section.dados input {
 main section.dados div.senha-lembrar {
     display: flex;
     justify-content: center;
-    margin-top: 15px;
-    margin-bottom: 15px;
+    margin-top: 10px;
+    margin-bottom: 20px;
 }
 
 main section.dados div.senha-lembrar p {
+    height: 30px;
+    margin: 0;
     margin-right: 15px;
 }
 
