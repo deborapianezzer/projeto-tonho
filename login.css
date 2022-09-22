@@ -16,7 +16,7 @@ body {
     background-color: #038c7362 ;
     font-family: 'Roboto Condensed', sans-serif;
     height: 100%;
-    margin-top: 150px;
+    margin-top: 200px;
 }
 
 /*MAIN*/
@@ -88,9 +88,16 @@ main section.dados div.senha-lembrar p {
 }
 
 main section.dados div.login button {
+    font-family: 'Roboto Condensed', sans-serif;
     width: 100px;
     height: 30px;
     border: 1px;
     border-radius: 15px;
     background-color: white;
+    transition: transform .3s;
+}
+
+main section.dados div.login button:hover {
+    cursor: pointer;
+    transform: scale(1.1);
 }
