@@ -93,11 +93,14 @@ main section.dados div.login button {
     height: 30px;
     border: 1px;
     border-radius: 15px;
-    background-color: white;
+    background-color: var(--color-primary-main);
+    color: white;
     transition: transform .3s;
 }
 
 main section.dados div.login button:hover {
     cursor: pointer;
     transform: scale(1.1);
+    background-color: white;
+    color: black;
 }
