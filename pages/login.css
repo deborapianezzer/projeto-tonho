@@ -1,8 +1,4 @@
-:root {
-    --color-primary-main: #038C73;
-    --color-secundary-main: #04D9B2;
-    --color-background-main: #f2f2f2;
-}
+
 
 * {
     margin: 0;
@@ -13,7 +9,8 @@
 /*BODY*/
 
 body {
-    background-color: #b3ebe0b9 ;
+    background-image: url(../images/wepik-abstract-simple-linear-mountain-night-desktop-wallpaper-2022823-214049.png);
+    background-size: cover;
     font-family: 'Roboto Condensed', sans-serif;
     height: 100vh;
     display: flex;
@@ -25,6 +22,13 @@ body {
 
 main {
     background-color: white;
+    box-shadow:
+        0px 2.8px 2.2px rgba(0, 0, 0, 0.02),
+        0px 6.7px 5.3px rgba(0, 0, 0, 0.028),
+        0px 12.5px 10px rgba(0, 0, 0, 0.035),
+        0px 22.3px 17.9px rgba(0, 0, 0, 0.042),
+        0px 41.8px 33.4px rgba(0, 0, 0, 0.05),
+        0px 100px 80px rgba(0, 0, 0, 0.07);
     width: 850px;
     height: 500px;
     border-radius: 15px;
@@ -65,7 +69,15 @@ main section.dados {
     padding-left: 20px;
     padding-right: 20px;
     border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     transition: transform .3s;
+}
+
+main section.dados h1 {
+    display: flex;
+    justify-content: center;
 }
 
 main section.dados:hover {
@@ -94,10 +106,6 @@ main section.dados div.senha-lembrar {
     display: flex;
     justify-content: space-around;
     margin-bottom: 15px;
-}
-
-main section.dados div.senha-lembrar p {
-
 }
 
 main section.dados div.login-conta {
